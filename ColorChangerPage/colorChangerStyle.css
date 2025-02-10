@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.canvas {
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* Define button colors */
+#grey { background-color: grey; }
+#white { background-color: white; color: black; border: 1px solid #ccc; }
+#blue { background-color: blue; }
+#yellow { background-color: yellow; color: black; }
+#pink { background-color: pink; color: black; }
+#orange { background-color: orange; }
+#red { background-color: red; }
+#green { background-color: green; }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .button {
+        width: 80px;
+        height: 80px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        width: 60px;
+        height: 60px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+}
