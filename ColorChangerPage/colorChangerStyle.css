@@ -40,7 +40,7 @@ h1 {
 #pink { background-color: pink; color: black; }
 #orange { background-color: orange; }
 #red { background-color: red; }
-#green { background-color: green; }
+#green { background-color: green;}
 
 /* Responsive styles */
 @media (max-width: 768px) {
