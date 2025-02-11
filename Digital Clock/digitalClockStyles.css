@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #E0FFFF);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    background-color: #ffffffcc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#banner {
+    font-size: 28px;
+    font-weight: bold;
+    color: #004080;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner i {
+    margin-left: 10px;
+    color: #004080;
+}
+
+#clock {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0066CC;
+    margin-top: 10px;
+}
+
+#banner i::before {
+    content: "\f017";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+/* Animation for hover effect */
+.center:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
