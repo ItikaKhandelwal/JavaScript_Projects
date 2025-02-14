@@ -35,3 +35,18 @@ This clock shows the real time in 12 hour format.
 
 [Digital Clock](https://itika-digitalclock.netlify.app/)
 
+## Project 8: Guessing a number
+This is quite a game based on your guess for a number between 1 to 100.
+
+[Guessing a Number Game](https://itika-guessingnumbergame.netlify.app/)
+
+## Project 9: Calligraphy Styles
+This shows your word or letter in 5 different calligraphy styles.
+
+[Calligraphy Styles](https://itika-calligraphy-styles.netlify.app/)
+
+## Project 10: Keyword Code
+If you want to know the code for any keys from your keyboard, visit here. 
+
+[Keyword Code](https://itika-keyword-code.netlify.app/)
+
