@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f8f9fa;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background 0.5s ease;
+    background-size: 20px 20px;
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px), 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+        }
+.options {
+    margin-bottom: 20px;
+}
+.input-box {
+    margin-bottom: 20px;
+}
+input {
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #f39c12;
+    color: white;
+}
+.calligraphy-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.word-box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeIn 1s forwards ease-out;
+}
+.style-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.word {
+    font-size: 40px;
+    flex-grow: 1;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
