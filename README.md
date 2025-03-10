@@ -50,3 +50,17 @@ If you want to know the code for any keys from your keyboard, visit here.
 
 [Keyword Code](https://itika-keyword-code.netlify.app/)
 
+## Project 11: Calligraphy Styles
+If you want to print your text in different calligraphy styles, here you can. 
+
+[Calligraphy Styles](https://itika-calligraphy-styles.netlify.app/)
+
+## Project 12: Random DJ Lights
+Here you can see different random DJ lights on your screen. 
+
+[Random DJ Lights](https://itika-dj-lights.netlify.app/)
+
+## Project 13: Employee Management
+If you want to record your employee salary details and download an excel sheet of their salary as per their hours of working, you can find some help here to manage your records.
+
+[Employee Management](https://itika-employee-management.netlify.app/)
